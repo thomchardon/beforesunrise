@@ -1,0 +1,110 @@
+/* Theme Colors
+#7d695f
+#e8debd
+#ede7de
+#ffde59 */
+/* Bootstrap edits */
+.col {
+  padding: 0;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 0;
+}
+
+/* Global styles */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.navbar {
+  padding: 10px 0;
+}
+
+.page-container {
+  padding: 60px 5% 5%;
+  background-color: #ede7de;
+}
+
+.page-header {
+  margin-top: 5%;
+  text-align: center;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+/* Fonts */
+.home-menu {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  color: #7d695f;
+}
+
+p {
+  font-family: 'Shippori Mincho', serif;
+  font-size: 0.9rem;
+  color: #4c4c4c;
+  text-align: justify;
+  width: 0;
+  min-width: 100%;
+}
+
+.menu-items {
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  text-align: center;
+}
+
+.right-align {
+  text-align: right;
+}
+
+/* index page */
+.background {
+  height: 100%;
+  width: 100%;
+  background-image: url('../assets/images/plant-vase-1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+}
+
+.intro {
+  height: 90%;
+  width: 90%;
+  position: relative;
+  left: 10%;
+  top: 10%;
+}
+
+.circle {
+  width: 40%;
+  position: absolute;
+  top: 7%;
+}
+
+.intro-text {
+  display: inline-block;
+  position: absolute;
+  left: 25%;
+  top: 10%;
+}
+
+/* about page */
+.haruka-image {
+  display: block;
+  margin: 5% auto;
+  height: 100%;
+  width: 100%;
+}
